@@ -168,7 +168,7 @@ label,
 .navbar,
 .brand,
 .btn-simple,
-a,
+button,
 .td-name,
 td,
 small,
@@ -177,12 +177,12 @@ small,
   font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-a {
+button {
   color: #777777;
   opacity: .7;
   font-size: 14px;
 }
-a:hover {
+button:hover {
   color: #777777;
   opacity: 1;
 }
