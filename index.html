@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html oncontextmenu="return false;" lang="en">
 
 <head>
     <title>Hospitality work</title>
@@ -7,7 +7,7 @@
     <!-- Meta -->
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta name="description" content="Hello everyone this is my Hospitality work and its very boring :(">
 
 
@@ -24,38 +24,40 @@
 
 <body>
 
-  
+    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
+        <!--ok so this is navber-->
+        <div class="container">
+            <div class="navbar-header">
+                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example">
+                    <span class="sr-only">school work</span>
+                    <span class="icon-bar bar1"></span>
+                    <span class="icon-bar bar2"></span>
+                    <span class="icon-bar bar3"></span>
+                </button>
+                <a href="https://jsdonut.github.io/main.html" class="navbar-brand">
+                    HOSPITALITY
+                </a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right navbar-uppercase">
+                    <li class="dropdown">
+                        <a href="https://jsdonut.github.io/pages/task1.html" class="dropdown-toggle" data-toggle="dropdown">TASK 1</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="https://jsdonut.github.io/pages/task2.html" class="dropdown-toggle" data-toggle="dropdown">TASK 2</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="https://jsdonut.github.io/pages/task3.html" class="dropdown-toggle" data-toggle="dropdown">TASK 3</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="https://jsdonut.github.io/pages/task4.html" class="dropdown-toggle" data-toggle="dropdown">TASK 4</a>
+                    </li>
+                </ul>
+            </div>
 
-    <!DOCTYPE html>
-<html lang="en">
- <head>
-   <meta charset="UTF-8" />
-   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <link rel="stylesheet" href="style.css" />
-   <title>Document</title>
- </head>
- <body>
-   <nav class="navbar">
-     <!-- LOGO -->
-     <div class="logo">Hospitality</div>
-     <!-- NAVIGATION MENU -->
-     <ul class="nav-links">
-       <!-- USING CHECKBOX HACK -->
-       <input type="checkbox" id="checkbox_toggle" />
-       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-       <!-- NAVIGATION MENUS -->
-       <div class="menu">
-         <li><a href="https://jsdonut.github.io/pages/task1.html/">Task 1</a></li>
-         <li><a href="https://jsdonut.github.io/pages/task2.html/">TAsk 2</a></li>
-         <li><a href="https://jsdonut.github.io/pages/task3.html/">Task 3</a></li>
-         <li><a href="https://jsdonut.github.io/pages/task3.html/">Task 4</a></li>
-           <li><a href="https://jsdonut.github.io/404">DOWNLOAD</a></li>
-       </div>
-     </ul>
-   </nav>
- </body>
-</html> 
+        </div>
+    </nav>
     <!--navber ends here-->
 
     <div class="section section-header">
@@ -66,6 +68,7 @@
                 <div class="content">
                     <div class="title-area">
                         <h1 class="title-modern">HOSPITALITY</h1>
+                        <h3>yoooooooooo</h2>
                             <div class="separator line-separator"> ★ </div>
                     </div>
 
@@ -146,19 +149,16 @@
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="https://jsdonut.github.io/pages/task1.html" class="title">TASK 1</a>
+                                    <a href="https://jsdonut.github.io" class="title">UNIT 1</a>
                                 </li>
-                                <br>
                                 <li>
-                                    <a href="https://jsdonut.github.io/pages/task2.html" class="title">TASK 2</a>
+                                    <a href="https://jsdonut.github.io/404" class="title">UNIT 2</a>
                                 </li>
-                                <br>
                                 <li>
-                                    <a href="https://jsdonut.github.io/pages/task3.html" class="title">TASK 3</a>
+                                    <a href="https://jsdonut.github.io/404" class="title">UNIT 3</a>
                                 </li>
-                                <br>
                                 <li>
-                                    <a href="https://jsdonut.github.io/pages/task4.html" class="title">TASK 4</a>
+                                    <a href="https://jsdonut.github.io/404" class="title">TASK 4</a>
                                 </li>
                             </ul>
                         </nav>
@@ -166,7 +166,7 @@
                 </div>
                 <div class="col-md-3 col-md-offset-1 col-sm-3">
                     <div class="info">
-                        <h5 class="title">Contact</h5>
+                        <h5 class="title">Contact Us</h5>
                         <nav>
                             <ul>
                                 <li>
@@ -268,6 +268,21 @@
 
 <script type="text/javascript" src="assets/js/1.js"></script>
 
-
+<script>
+    document.onkeydown = function(e) {
+if(event.keyCode == 123) {
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+return false;
+}
+}
+</script>
 
 </html>
