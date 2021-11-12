@@ -9,9 +9,11 @@ body {
 }
 a {
  text-decoration: none;
+ z-index: 99;
 }
 li {
  list-style: none;
+ z-index: 99;
 }
 
 /* NAVBAR STYLING STARTS */
@@ -22,16 +24,20 @@ li {
  padding: 20px;
  background-color: teal;
  color: #fff;
+ z-index: 99;
 }
 .nav-links a {
  color: #fff;
+ z-index: 99;
 }
 /* LOGO */
 .logo {
+ z-index: 99;
  font-size: 32px;
 }
 /* NAVBAR MENU */
 .menu {
+ z-index: 99;
  display: flex;
  gap: 1em;
  font-size: 18px;
@@ -39,36 +45,44 @@ li {
 .menu li:hover {
  background-color: #4c9e9e;
  border-radius: 5px;
+ z-index: 99;
  transition: 0.3s ease;
 }
 .menu li {
  padding: 5px 14px;
+ z-index: 99;
 }
 /* DROPDOWN MENU */
 .services {
  position: relative; 
+ z-index: 99;
 }
 .dropdown {
  background-color: rgb(1, 139, 139);
  padding: 1em 0;
  position: absolute; /*WITH RESPECT TO PARENT*/
  display: none;
+ z-index: 99;
  border-radius: 8px;
  top: 35px;
 }
 .dropdown li + li {
+ z-index: 99;
  margin-top: 10px;
 }
 .dropdown li {
  padding: 0.5em 1em;
  width: 8em;
+ z-index: 99;
  text-align: center;
 }
 .dropdown li:hover {
  background-color: #4c9e9e;
+ z-index: 99;
 }
 .services:hover .dropdown {
  display: block;
+ z-index: 99;
 }
 
 
@@ -76,9 +90,11 @@ li {
 /* CHECKBOX HACK */
 input[type=checkbox]{
  display: none;
+ z-index: 99;
 } 
 /*HAMBURGER MENU*/
 .hamburger {
+ z-index: 99;
  display: none;
  font-size: 24px;
  user-select: none;
@@ -87,6 +103,7 @@ input[type=checkbox]{
 @media (max-width: 768px) {
 .menu { 
  display:none;
+ z-index: 99;
  position: absolute;
  background-color:teal;
  right: 0;
@@ -98,23 +115,29 @@ input[type=checkbox]{
  display: inline-block;
  background-color:#4c9e9e;
  transition: 0.3s ease;
+ z-index: 99;
 }
 .menu li + li {
  margin-top: 12px;
+ z-index: 99;
 }
 input[type=checkbox]:checked ~ .menu{
  display: block;
+ z-index: 99;
 }
 .hamburger {
  display: block;
+ z-index: 99;
 }
 .dropdown {
  left: 50%;
+ z-index: 99;
  top: 30px;
  transform: translateX(35%);
 }
 .dropdown li:hover {
  background-color: #4c9e9e;
+ z-index: 99;
 }
 }
 
