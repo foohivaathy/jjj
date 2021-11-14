@@ -3778,34 +3778,83 @@ body {
     }
   }
 
-  #photo {
-    width: 600px;
-    height: 300px;
-  }
-
-  @media (max-width: 620px) {
-
-    #photo {
-      width: 500px;
-      height: 240px;
-    }
+  
 
     @media (max-width: 350px) {
-
-      ::selection {
-        background-color: #ffffff;
-        color: #000000;
-
-      }
 
       #laala {
        font-size: 30px;
      }
-
-     #photo {
-       width: 300px;
-       height: 180px;
-     }
    }
 
    
+
+  @media screen and (max-width: 1950px) {
+    #photo {
+      height: 450px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+   }
+  
+
+  @media screen and (max-width: 1280px) {
+    #photo {
+      width: 750px;
+      height: 400px;
+    }
+   }
+
+
+  @media screen and (max-width: 1024px) {
+    #photo {
+      width: 750px;
+      height: 400px;
+    }
+    ::selection {
+      color: #000000;
+      background-color: white;
+    }
+   }
+
+
+
+  @media screen and (max-width: 768px) {
+    #photo {
+      width: 550px;
+      height: 300px;
+    }
+   }
+
+
+   @media screen and (max-width: 540px) {
+    #photo {
+      width: 450px;
+      height: 280px;
+    }
+
+    ::selection {
+      color: #ffffff;
+      background-color: rgb(0, 0, 0);
+    }
+   }
+   
+
+  @media screen and (max-width: 414px) {
+    #photo {
+      width: 290px;
+      height: 180px;
+    }
+   }
+
+
+   
+
+   @media screen and (max-width: 375px) {
+    #photo {
+      width: 290px;
+      height: 180px;
+    }
+   }
