@@ -23,7 +23,9 @@
     <link rel="icon" type="image/png" sizes="96x96" href="https://jsdonut.github.io/assets/img/LOGO.png">
 </head>
 
-<body>
+<body onload="myFunction()">
+    <div id="loader"></div><div id="loader1"></div><div id="loader2"></div>
+<div style="display:none;" id="myDiv" class="animate-bottom">
 
     <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
         <!--ok so this is navber-->
@@ -386,4 +388,18 @@
     }
 </script>
 
+    <script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+
+    
 </html>
